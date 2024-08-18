@@ -1,0 +1,100 @@
+@media (max-width: 750px){
+  .main-grid{
+    grid-template-columns: 1fr;
+  }
+  .container-shorts-vids{
+    grid-template-columns: 1fr 1fr;
+  }
+  .youtube-logo{
+    margin-right: 20px;
+  }
+  .upload{
+    margin-left: 20px;
+  }
+  .notification{
+    margin-left: 8px;
+    margin-right: 10px;
+  }
+  .video-title{
+    font-size: 14px;
+  }
+}
+@media (max-width: 1000px){
+  .starterpage{
+    flex-direction: column;
+    align-items: center;
+  }
+  .starterpage-div,
+  .shorts-div,
+  .abos-div{
+    margin: 0px;
+    padding-top: 8px;
+  }
+  .starterpage-text{
+    margin: 0px;
+    margin-top: 4px;
+    margin-bottom: 15px;
+  }
+  .my-youtube-section-sidebar,
+  .line,
+  .sub-title-2,
+  .abos-main,
+  .text-container,
+  .sidebar-finish-text{
+    display: none;
+  }
+  .sidebar-main{
+    width: 80px;
+  }
+  .main-grid{
+    padding-left: 80px;
+  }
+  .container-shorts-vids{
+    padding-left: 80px;
+  }
+  .navigation-bar{
+    left: 88px;
+  }
+}
+@media (min-width: 751px) and (max-width: 1000px){
+  .main-grid{
+    grid-template-columns: 1fr 1fr;
+  }
+  .container-shorts-vids{
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  .youtube-logo{
+    margin-right: 30px;
+  }
+  .upload{
+    margin-left: 30px;
+  }
+  .video-title{
+    font-size: 14px;
+  }
+}
+@media (min-width: 1001px) and (max-width: 1200px){
+  .main-grid{
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  .container-shorts-vids{
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+  .youtube-logo{
+    margin-right: 50px;
+  }
+  .upload{
+    margin-left: 50px;
+  }
+}
+@media (min-width: 1301px){
+  .main-grid{
+    grid-template-columns: 1fr 1fr  1fr 1fr;
+  }
+  .container-shorts-vids{
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  }
+  .video-title{
+    font-size: 14px;
+  }
+}

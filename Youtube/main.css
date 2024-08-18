@@ -1,0 +1,85 @@
+.main-grid{
+  padding-left: 220px;
+  padding-top: 120px;
+  padding-right: 10px;
+  padding-bottom: 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  row-gap: 30px;
+  column-gap: 20px;
+}
+.body{
+  padding-bottom: 400px;
+}
+.video-thumbnail{
+  width: 100%;
+  border-radius: 10px;
+  object-fit: cover;
+}
+.video-info{
+  display: flex;
+  flex-direction: row;
+  position: relative;
+}
+.channel-picture{
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+  border-radius: 25px;
+  margin-top: 7px;
+}
+.video-text{
+  margin-left: 10px;
+}
+.video-title{
+  font-family: Roboto, Arial;
+  font-size: 15px;
+  margin-bottom: 8px;
+  font-weight: bold;
+  margin-top: 9px;
+}
+.video-channel, 
+.video-stats{
+  color: rgb(87, 87, 87);
+  font-family: Roboto, Arial;
+  font-size: 12px;
+  margin-top: 4px;
+  margin-bottom: 0px;
+}
+.popup-main{
+  position: absolute;
+  background-color: white;
+  box-shadow: 1px 3px 3px rgba(0, 0,0, 0.4);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  padding: 3px 8px 3px 3px;
+  opacity: 0;
+  pointer-events: none;
+}
+.popup-image{
+  height: 60px;
+  border-radius: 50%;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.popup-channel{
+  font-family: Roboto, Arial;
+  font-weight: 700;
+  font-size: 19px;
+  margin-bottom: 0px;
+  margin-right: 10px;
+}
+.popup-subscribers{
+  font-family: Roboto, Arial;
+  font-weight: 400;
+  font-size: 14px;
+  color: rgb(79, 79, 79);
+  margin-top: 5px;
+}
+.channel:hover .popup-main{
+  opacity: 1;
+  cursor: pointer;
+}

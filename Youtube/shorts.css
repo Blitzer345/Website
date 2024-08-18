@@ -1,0 +1,37 @@
+.shorts-header-container{
+  padding-left: 220px;
+  display: flex;
+  align-items: center;
+}
+.shorts-header{
+  display: inline-block;
+  font-family: Roboto, Arial;
+  font-weight: 600;
+  font-size: 23px;
+}
+.container-shorts-vids{
+  padding-left: 220px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  column-gap: 10px;
+}
+.image-shorts{
+  height: 410px;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+.title-shorts{
+  font-family: Roboto, Arial;
+  font-weight: 500;
+  font-size: 18px;
+  margin-bottom: 7px;
+  margin-top: 7px;
+}
+.stats-shorts{
+  margin-top: 0px;
+  font-family: Roboto, Arial;
+  font-weight: 400;
+  font-size: 14px;
+  color: rgb(74, 74, 74);
+}
